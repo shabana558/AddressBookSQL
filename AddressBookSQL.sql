@@ -33,3 +33,7 @@ where FirstName='Rujula' and SecondName='Mathialagan';
 delete 
 from Address_Book_Table
 where FirstName='Anita' and SecondName='Yadav'
+------ UC 6: Ability to Retrieve Person belonging to a City or State ------
+
+select * from Address_Book_Table
+where City='Bangalore' or State='Karnataka'
